@@ -11,4 +11,11 @@
      <developerConnection>scm:git:https://github.com/jimma/qianzi.git</developerConnection>
      <tag>HEAD</tag>
   </scm>
+    <distributionManagement>
+        <repository>
+            <id>test</id>
+            <name>Apache Release Distribution Repository</name>
+            <url>file:///home/jimma/tmp/</url>
+        </repository>
+    </distributionManagement>
 </project>
